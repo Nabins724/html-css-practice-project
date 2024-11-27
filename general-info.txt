@@ -1,0 +1,2 @@
+A project in The Odin Project after learning basics of HTML & CSS with focus on Flexbox section. 
+

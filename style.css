@@ -1,0 +1,158 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* */
+.container{
+    width: 900px;
+    /* border: 1px solid rebeccapurple; */
+}
+.home-page{
+    display: flex;
+    flex-direction: column;
+}
+.centre-content{
+    display: flex;
+    justify-content: center;
+}
+/* Section one */
+.section-one{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.navigation li, a{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #f9faf8; 
+    font-size: 15px;
+}
+.navigation {
+    padding-top: 5px;
+}
+/* Section Two */
+.section-two{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 5px;
+    padding: 10px;
+    gap: 70px;
+}
+.left-hero h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.left-hero p{
+    font-size: 18px;
+}
+.hero-image{
+    width: 400px;
+}
+.button{
+    margin-top: 20px;
+}
+/* Section Three */
+.section-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.info-section h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.small-container{
+    width: 200px;
+    text-align: center;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.image-class{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+/* Section Four */
+.section-four{
+    background-color: #E5E7EB;
+
+}
+.quote-section{
+    padding: 100px;
+    text-align: left;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+.author{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* Section Five */
+.sign-up{
+    margin: 50px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.signup-button button{
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 27px;
+    width: 100px;
+}
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px;
+}
+/* Button */
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    border: 0px;
+    font-weight: bold;
+}
